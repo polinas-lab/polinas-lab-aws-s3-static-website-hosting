@@ -30,7 +30,23 @@ Project Steps
 
 Screenshots
 
-(To be added)
+Website Hosted on Amazon S3
+
+This screenshot shows the static website successfully hosted using the Amazon S3 Website Endpoint before CloudFront was configured.
+
+![Website Hosted on S3](screenshots/without_cloudfront.png)
+
+CloudFront Distribution Configuration
+
+This screenshot shows the CloudFront distribution configuration using the S3 website endpoint as the origin.
+
+![CloudFront Configuration](screenshots/Cloudfront_AWS.png)
+
+Website Delivered Through CloudFront
+
+This screenshot shows the website successfully being served through Amazon CloudFront after the distribution was deployed.
+
+![Website Through CloudFront](screenshots/with_cloudfront.png)
 
 Learning Outcomes
 
