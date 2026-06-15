@@ -1,4 +1,4 @@
-<b>Project Journey</b>
+<h1><b>Project Journey</b></h1>
 
 Why I Started This Project
 
