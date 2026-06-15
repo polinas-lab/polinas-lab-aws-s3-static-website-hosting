@@ -1,14 +1,14 @@
 <h1><b>Project Journey</b></h1>
 
-Why I Started This Project
+<h2>Why I Started This Project</h2>
 
 As part of my cloud computing learning journey, I wanted to create and host my very first website using Amazon S3. My goal was simple: upload a basic HTML page and make it accessible on the internet. Since I am a beginner and currently in the first year of my Bachelor of Computer Applications (BCA), this project was my first hands-on experience with AWS services beyond theory.
 
-Step 1: Hosting a Website with Amazon S3
+<h3>Step 1: Hosting a Website with Amazon S3</h3>
 
 I began by creating an Amazon S3 bucket and enabling Static Website Hosting. After uploading my HTML file, AWS generated a website endpoint that allowed visitors to access my website directly from the S3 bucket.
 
-Website Hosted Through Amazon S3
+<b>Website Hosted Through Amazon S3</b>
 
 This screenshot shows the website successfully hosted using the Amazon S3 Website Endpoint.
 
@@ -18,7 +18,7 @@ At this stage, my website was online and functioning correctly. However, I notic
 
 Although the website worked perfectly, visitors had to manually proceed past browser warnings because the connection was not encrypted. This motivated me to learn how websites are secured in real-world cloud environments.
 
-Step 2: Discovering the Need for CloudFront
+<h3>Step 2: Discovering the Need for CloudFront</h3>
 
 While investigating the issue, I learned that Amazon S3 Static Website Endpoints only support HTTP and do not directly provide HTTPS support.
 
@@ -32,11 +32,11 @@ This led me to discover Amazon CloudFront, AWS's Content Delivery Network (CDN).
 
 Instead of stopping at basic website hosting, I decided to learn CloudFront and integrate it into my project.
 
-Step 3: Configuring CloudFront
+<h3>Step 3: Configuring CloudFront</h3>
 
 I created a CloudFront distribution and configured my S3 website endpoint as the origin. This allowed CloudFront to retrieve content from my S3 bucket and deliver it securely to users.
 
-CloudFront Distribution Configuration
+<h2>CloudFront Distribution Configuration</h2>
 
 The screenshot below shows the CloudFront distribution setup process.
 
@@ -44,11 +44,11 @@ The screenshot below shows the CloudFront distribution setup process.
 
 Through this step, I learned how AWS services can work together to solve practical problems. I also gained experience configuring a CDN for the first time.
 
-Step 4: Accessing the Website Through CloudFront
+<h3>Step 4: Accessing the Website Through CloudFront</h3>
 
 After the distribution finished deploying, CloudFront generated a unique domain name that could be used to access the website.
 
-Website Delivered Through CloudFront
+<h2>Website Delivered Through CloudFront</h2>
 
 The screenshot below shows the final website being delivered through CloudFront.
 
@@ -56,7 +56,7 @@ The screenshot below shows the final website being delivered through CloudFront.
 
 The website was now accessible through HTTPS, making it more secure and aligned with modern web standards.
 
-What I Learned
+<h2>What I Learned</h2>
 
 This project taught me much more than simply uploading files to a storage bucket.
 
@@ -73,7 +73,7 @@ Through experimentation and troubleshooting, I learned:
 
 ---
 
-Conclusion
+<h2>Conclusion</h2>
 
 What started as a simple goal of hosting a basic HTML page evolved into a valuable learning experience about cloud infrastructure and secure content delivery.
 
