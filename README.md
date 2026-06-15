@@ -34,7 +34,7 @@ Website Hosted on Amazon S3
 
 This screenshot shows the static website successfully hosted using the Amazon S3 Website Endpoint before CloudFront was configured.
 
-![Website Hosted on S3](without_cloudfront.png)
+![Website Hosted on S3](screenshots/without_cloudfront.png)
 
 CloudFront Distribution Configuration
 
