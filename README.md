@@ -12,7 +12,7 @@ Website Hosted Through Amazon S3
 
 This screenshot shows the website successfully hosted using the Amazon S3 Website Endpoint.
 
-![Website Hosted on S3](screenshots/without_cloudfront.png)
+![Website Hosted on S3](screenshots/wihtout_cloudfront.png)
 
 At this stage, my website was online and functioning correctly. However, I noticed that the website URL started with **HTTP** rather than **HTTPS**. Modern browsers displayed a **"Not Secure"** warning, which made me realize that simply hosting a website on S3 was not enough for a secure deployment.
 
