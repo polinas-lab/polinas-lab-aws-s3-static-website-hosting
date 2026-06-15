@@ -1,4 +1,4 @@
-Project Journey
+<b>Project Journey</b>
 
 Why I Started This Project
 
